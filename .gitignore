@@ -2,6 +2,8 @@
 html
 latex
 
+*.csv
+
 ### C++ template
 # Prerequisites
 *.d
