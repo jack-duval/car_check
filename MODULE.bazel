@@ -1,0 +1,8 @@
+module(
+    name = "car_check",
+    version = "0.1.0",
+)
+
+bazel_dep(name = "googletest", version = "1.16.0")
+#bazel_dep(name = "protobuf", version = "29.3")
+#bazel_dep(name = "rules_proto_grpc_cpp", version = "5.0.1")

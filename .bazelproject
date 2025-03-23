@@ -1,0 +1,14 @@
+directories:
+  src
+  tests
+  proto
+
+
+targets:
+  //src/main:car_check
+  //src/lib:utils
+  //src/modules/db_manager
+  //src/modules/event_detector
+  //src/modules/fault_detector
+  //tests:all
+  //:generate_docs
