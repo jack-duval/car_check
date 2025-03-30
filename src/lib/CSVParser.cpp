@@ -4,6 +4,9 @@
 
 #include "CSVParser.h"
 
+#include <sstream>
+#include <iostream>
+
 void CSVParser::load(const std::string& path, std::vector<TickEntry>& entries) const {
   std::ifstream f(path);
   std::string line;

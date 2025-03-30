@@ -6,8 +6,6 @@
 #include "TickEntry.h"
 
 #include <fstream>
-#include <sstream>
-#include <iostream>
 
 class CSVParser {
 public:
@@ -26,7 +24,7 @@ public:
 
 
 private:
-  CSVParser() { m_instance = nullptr; }
+  CSVParser() {}
   ~CSVParser() = default;
   static CSVParser* m_instance;
 };
